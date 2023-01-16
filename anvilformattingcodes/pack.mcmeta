@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 10,
+    "description": "Use formating codes in anvils. Made possible with §45uso§r's string parser: §3§nhttps://github.com/5uso/String-Parser"
+  }
+}

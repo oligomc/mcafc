@@ -1,0 +1,1 @@
+execute as @a[tag=afc.check.a.1] run function afc:check/delay

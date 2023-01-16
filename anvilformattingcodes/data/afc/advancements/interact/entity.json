@@ -1,0 +1,50 @@
+{
+  "parent": "afc:interact/block_entity",
+  "criteria": {
+    "items": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "#afc:entity"
+        }
+      }
+    },
+    "offers": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:villager",
+                  "nbt": "{Offers:{}}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:wandering_trader",
+                  "nbt": "{Offers:{}}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "items",
+      "offers"
+    ]
+  ],
+  "rewards": {
+    "function": "afc:interact/other/main"
+  }
+}

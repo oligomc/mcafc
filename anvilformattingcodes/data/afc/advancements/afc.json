@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Anvil Formatting Codes",
+        "description": "Use formating codes in anvils. Made possible with 5uso's string parser",
+        "icon": {
+            "item": "minecraft:name_tag"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:oligo",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

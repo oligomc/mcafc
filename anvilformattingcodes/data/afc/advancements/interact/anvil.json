@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "interact_with_anvil": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "tag": "minecraft:anvil"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "afc:interact/anvil/main"
+    }
+  }
+  

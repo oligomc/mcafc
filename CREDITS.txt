@@ -1,0 +1,2 @@
+5uso: Character array generation from raw string using general string parser. Modified original module to exclude head parsing capabilities. (data/suso.str)
+Oligo: Character array parser and interpreter, data management, and item detection (data/afc, data/global, data/minecraft)

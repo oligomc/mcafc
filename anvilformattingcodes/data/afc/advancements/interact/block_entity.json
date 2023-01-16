@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "tag": "afc:block_entity"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "afc:interact/other/main"
+    }
+  }

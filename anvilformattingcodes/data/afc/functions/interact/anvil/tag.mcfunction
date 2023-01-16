@@ -1,0 +1,2 @@
+execute if data storage afc:data temp.inventory[0].tag.Enchantments unless data storage afc:data temp.inventory[0].tag.Enchantments[{id:"minecraft:null"}] run data modify storage afc:data temp.inventory[0].tag.Enchantments append value {id:"minecraft:null", lvl:0}
+execute unless data storage afc:data temp.inventory[0].tag.Enchantments run data modify storage afc:data temp.inventory[0].tag.Enchantments set value {}

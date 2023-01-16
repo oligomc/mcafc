@@ -1,0 +1,18 @@
+{
+  "parent": "afc:check/a",
+  "criteria": {
+    "renamed_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{display:{}, checkNameUpdates:true}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "afc:check/b"
+  }
+}

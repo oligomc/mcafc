@@ -1,0 +1,1 @@
+data modify block 29999985 -63 43376 Text1 set value '{"nbt":"temp.parse.out", "storage":"afc:data", "interpret":true}'
