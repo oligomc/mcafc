@@ -6,7 +6,7 @@ Allows for the use of [formatting codes](https://minecraft.fandom.com/wiki/Forma
 ## Installation
 Once the data pack is [installed](https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack), type `/reload` in-game to load all data pack assets.
 
-The data pack can be disabled in-game using the command `/function sfc:uninstall`, whereafter the contents can be removed from the data packs folder.
+The data pack can be disabled in-game using the command `/function afc:uninstall`, whereafter the contents can be removed from the data packs folder.
 
 ## Usage
 Text in the anvil GUI can be formatted using the ampersand sign (`&`) followed by a valid formatting character:
